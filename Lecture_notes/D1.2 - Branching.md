@@ -1,0 +1,12 @@
+# Git and GitHub demonstration
+## Branches and forks
+### Branches
+Usually, when working on any kind of version controlled file, it is a good idea to keep any changes in a separate container while working on it, until you are absolutely sure that you want to commit those changes to your main project. In this capacity, Git introduces the concept of <i>branching</i>. A branch is a separate version of the source repository, which can contain its own commits and can be pushed to. The main source branch is usually referred to as either <i>main</i> or <i>master</i>, but can be given any name the repositorys owner insists on. A new branch is created by <i>checking it out</i> from the main branch. Branches are perfect for serving as a temporal workspace to work on e.g. a new feature. Once the feature is finished, it can then be merged into the main branch, and the branch is deleted. For now, we will not be doing any branching, but it might appear as a concept later on in the course.
+
+### Forks
+A <i>fork</i> is a complete copy of an entire repository. Instead of providing a reference to the main repository, like we did when we <i>cloned</i> our course repo, a fork creates an entirely new repository, but with all the history of the forked repo. A fork can be very useful when one wants to work on side-projects, very large rearrangements of the source or any kind of other project separated from the main project. Many forks don't even re-align with their parent project, but rather live their own life and eventually become their own main projects. 
+
+## Repository access and commit history
+In GitHub, repositories are either public or private. Public repositories can be viewed, cloned, checked out and forked by anyone. Private repositories on the other hand, are only accesible by the repository owner, and any users that are invited by the owner. For your newly forked repositories, they cannot be made private (for security reasons), so we will keep them as public for now. We will use these forked repositories to upload our source code in exercises and labs during the course! This means that the commit history will always be visible. Remember to commit changes to your code often. That way, you can easily go back if something goes bad. It also provides evidence that you (and not somebody else) is the one working on the code, since every commit is signed with your GitHub credentials.
+
+

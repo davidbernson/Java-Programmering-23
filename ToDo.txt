@@ -1,0 +1,15 @@
+Lösningar E5
+Laboration 2 (halvklart)
+Dugga
+Tenta
+Notes L5.3 Enum
+Notes L6.1
+Notes L6.2
+Notes L6.3
+Notes L7.1
+Notes L8.1
+
+Codealongs
+C0-4 - gör manus
+C4 - se över vad vi ska göra. Separera ut main() från klassen Walrus()
+C2 - BMICalculator. Manus? När i kursen?
