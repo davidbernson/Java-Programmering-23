@@ -1,5 +1,3 @@
-package codealongs.HelloWorld.finished;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;

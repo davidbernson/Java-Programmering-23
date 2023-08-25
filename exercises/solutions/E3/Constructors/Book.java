@@ -1,5 +1,3 @@
-package exercises.solutions.E3.Constructors;
-
 class Book {
     private String title;
     private String author;

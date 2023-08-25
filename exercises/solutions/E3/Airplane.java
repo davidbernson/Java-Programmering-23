@@ -1,5 +1,3 @@
-package exercises.solutions.E3;
-
 class Airplane {
     int maxPassengerCount = 48;
     double noseToTailLength_meters = 28.5;

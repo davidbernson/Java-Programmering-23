@@ -1,5 +1,3 @@
-package exercises.solutions.E3.Constructors;
-
 class Car {
     private String make;
     private String model;

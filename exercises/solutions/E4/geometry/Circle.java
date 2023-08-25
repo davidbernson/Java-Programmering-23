@@ -1,5 +1,3 @@
-package exercises.solutions.E4.geometry;
-
 public class Circle {
     private double radius;
 

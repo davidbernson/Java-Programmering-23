@@ -1,5 +1,3 @@
-package exercises.solutions.E3;
-
 class Airport {
     int maxPlanes = 10;
     String name = "Bergtuna Flygfält";

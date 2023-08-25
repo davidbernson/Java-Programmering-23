@@ -1,5 +1,3 @@
-package exercises.solutions.E3;
-
 class myCalculator {
     public static void main(String[] args) {
         int a = 8, b = 23;

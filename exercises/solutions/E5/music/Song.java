@@ -1,5 +1,3 @@
-package exercises.solutions.E5.music;
-
 public class Song {
     private String title;
     private String album;
