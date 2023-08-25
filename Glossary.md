@@ -1,5 +1,3 @@
-[GÅ IGENOM OCH KOLLA ATT KOMPLETT]
-
 Complete list of course elements. Lecture notes chapter in parentheses.
 * Variable (1.1)
     * Declaring (1.1)
