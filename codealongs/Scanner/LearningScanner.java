@@ -6,7 +6,17 @@ public class LearningScanner {
     public static void main(String[] args) {
     System.out.println("Guess an integer");
     Scanner scanner = new Scanner(System.in);
-    int num = scanner.nextInt();
+    int num;
+    num = scanner.nextInt();
+
+    scanner.nextLine();
+
+    
+        
+    
+        
+        
+    
 
     if (num != 6 && num >0 && num <10){
         System.out.println("Wrong, try again");
@@ -14,19 +24,21 @@ public class LearningScanner {
     }
     else if(num == 6){
       System.out.println("Write something");
-      Scanner scanner2 = new Scanner(System.in);
-      String newString = scanner2.nextLine();
-            
+      String newString = scanner.nextLine();
+
+      if (newString.equals("hello world")) {
+        System.out.println("Goodbye World");
+      }
+
       int wordLenght = newString.length();
       System.out.println(wordLenght + " characters written");
-      scanner2.close();
       scanner.close();
 
 
       
     }
 
-    else if (num  <0) {
+    else if (num  <= 0) {
         System.out.println("No negative numbers, try again");
         scanner.close();
     }
@@ -36,13 +48,15 @@ public class LearningScanner {
         scanner.close();
     }
 
-   else {
-    System.out.println("Wrong input");
-    scanner.close();
+   
+
+
+
+
    }
 
     }
 
 
-    }
-}
+    
+
