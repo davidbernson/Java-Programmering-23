@@ -6,6 +6,7 @@ public class LearningPrint {
 
         int car = 5;
         System.out.println((car + " cars"));
+        
     }
     
 }
