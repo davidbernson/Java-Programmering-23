@@ -147,32 +147,3 @@
 <li>true</li>
 <li>true</li>
 </ol>
-
-<b>1.10 Extra</b>
-<ol type="a">
-<li>a = a + b; (a becomes 15, b becomes 10)</li>
-<li>p = q - p; (p becomes 5, q becomes 20)</li>
-<li>m = m * n; (m becomes 48, n becomes 6)</li>
-<li>j = j / i; (i becomes 4, j becomes 3)</li>
-<li>c = c / d; (c becomes 3, d becomes 2)</li>
-<li>f = f - e; (e becomes 25, f becomes 5)</li>
-</ol>
-
-<b>1.11 Extra</b>
-<ol type="a">
-<li>27;</li>
-<li>165;</li>
-<li>216;</li>
-<li>5;</li>
-<li>15;</li>
-<li>30;</li>
-</ol>
-
-<b>1.12 Extra</b>
-<ol type="a">
-<li>25;</li>
-<li>10;</li>
-<li>18;</li>
-<li>20;</li>
-<li>55;</li>
-</ol>
