@@ -106,14 +106,14 @@
 <li>Allowed. boolean type can only have values true or false.</li>
 <li>Allowed. double type can store floating-point values.</li>
 <li>Allowed. char type can store Unicode characters, and 1024 is a valid Unicode value.</li>
-<li>Not allowed. myAge is declared as a String but assigned an int value.</li>
+<li>Allowed. myAge is declared as a String and "25" is a valid string literal.</li>
 <li>Not allowed. roomNumber is declared as an int but assigned a char value.</li>
 <li>Not allowed. hasPassed is declared as a boolean but assigned a String value ("yes").</li>
 <li>Allowed. float type can store floating-point values.</li>
-<li>Allowed. byte type can store integer values within its range.</li>
+<li>Not allowed. byte type can store integer values, but 200 is outside of the range of a byte.</li>
 <li>Allowed. char type can store Unicode characters, and 65 is the Unicode value for 'A'.</li>
 <li>Not allowed. userName is declared as a String but assigned a char value ('John').</li>
-<li>Allowed. boolean type can be assigned true or false, which map to 1 and 0 respectively.</li>
+<li>Not allowed. boolean types can only be assigned true or false.</li>
 <li>Not allowed. employeeSalary is declared as an int but assigned a double value.</li>
 <li>Allowed. double type can store floating-point values.</li>
 <li>Not allowed. initial is declared as a char but assigned a String value ("M").</li>
