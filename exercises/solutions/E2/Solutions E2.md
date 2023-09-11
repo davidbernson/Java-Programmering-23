@@ -83,10 +83,10 @@
 <b>2.2 Extra</b>
 <ol type="a">
 <li>27;</li>
-<li>165;</li>
-<li>216;</li>
+<li>155;</li>
+<li>693;</li>
 <li>5;</li>
-<li>15;</li>
+<li>75;</li>
 <li>30;</li>
 </ol>
 
@@ -95,6 +95,6 @@
 <li>25;</li>
 <li>10;</li>
 <li>18;</li>
-<li>20;</li>
+<li>27;</li>
 <li>55;</li>
 </ol>
