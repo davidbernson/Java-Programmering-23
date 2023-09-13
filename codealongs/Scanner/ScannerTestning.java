@@ -2,7 +2,7 @@ package codealongs.Scanner;
 
 import java.util.Scanner;
 
-public class LearningScanner {
+public class ScannerTestning {
     public static void main(String[] args) {
     System.out.println("Guess an integer");
     Scanner scanner = new Scanner(System.in);
