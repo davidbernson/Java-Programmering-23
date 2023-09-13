@@ -29,10 +29,12 @@ public class LearningScanner {
       if (newString.equals("hello world")) {
         System.out.println("Goodbye World");
       }
-
+      else {
       int wordLenght = newString.length();
       System.out.println(wordLenght + " characters written");
       scanner.close();
+
+      }
 
 
       

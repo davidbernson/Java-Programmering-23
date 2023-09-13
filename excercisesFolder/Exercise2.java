@@ -14,5 +14,7 @@ public class Exercise2 {
         else{
             System.out.println("Wrong");
         }
+
+        
     }
 }
