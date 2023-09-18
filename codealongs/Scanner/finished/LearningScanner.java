@@ -1,3 +1,5 @@
+package codealongs.Scanner.finished;
+
 import java.util.Scanner;
 
 public class LearningScanner {

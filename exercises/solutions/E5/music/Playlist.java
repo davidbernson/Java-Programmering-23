@@ -1,3 +1,5 @@
+package exercises.solutions.E5.music;
+
 public class Playlist {
     String name;
     int maxItems;
