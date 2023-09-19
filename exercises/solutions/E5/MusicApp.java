@@ -1,3 +1,7 @@
+package exercises.solutions.E5;
+
+import exercises.solutions.E5.music.*;
+
 public class MusicApp {
     public static void main(String[] args) {
         Song song1 = new Song("15 minuter från Eslöv", "Östen sjunger Ruben Nilson", "Östen Warnerbring", 178);

@@ -1,3 +1,5 @@
+package exercises.solutions.E4;
+
 import java.util.Scanner;
 
 public class MyMathMethods {

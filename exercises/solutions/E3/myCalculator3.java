@@ -1,3 +1,5 @@
+package exercises.solutions.E3;
+
 import java.util.Scanner;
 
 class myCalculator3 {

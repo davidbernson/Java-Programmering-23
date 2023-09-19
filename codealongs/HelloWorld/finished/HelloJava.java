@@ -1,3 +1,5 @@
+package codealongs.HelloWorld.finished;
+
 import javax.swing.*;
 
 public class HelloJava {

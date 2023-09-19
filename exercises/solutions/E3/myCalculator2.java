@@ -1,3 +1,5 @@
+package exercises.solutions.E3;
+
 class myCalculator2 {
     static double areaOfTriangle(double height, double width) {
         return ( height * width ) / 2;
