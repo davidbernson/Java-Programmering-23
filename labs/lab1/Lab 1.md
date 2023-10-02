@@ -20,7 +20,7 @@ En spelare skall också ha ett antal metoder:
 <ul>
 <li><code>rollDice()</code>: Skall rulla spelarens tärning.</li>
 
-<li><code>getDieValue()</code>: Skall summera och returnera värdet på spelaren tärning i form av ett heltal.</li>
+<li><code>getDieValue()</code>: Skall returnera värdet på spelaren tärning i form av ett heltal.</li>
 
 <li><code>increaseScore()</code>: Skall öka spelarens poäng med ett. </li>
 
