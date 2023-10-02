@@ -18,9 +18,9 @@ En spelare skall ha tre instansvariabler: ett namn, en poäng och en tärning. N
 
 En spelare skall också ha ett antal metoder: 
 <ul>
-<li><code>rollDice()</code>: Skall rulla alla tärningar i spelarens tärnings-lista.</li>
+<li><code>rollDice()</code>: Skall rulla spelarens tärning.</li>
 
-<li><code>getDieValue()</code>: Skall summera och returnera värdet på spelarens alla tärningar i form av ett heltal.</li>
+<li><code>getDieValue()</code>: Skall summera och returnera värdet på spelaren tärning i form av ett heltal.</li>
 
 <li><code>increaseScore()</code>: Skall öka spelarens poäng med ett. </li>
 
