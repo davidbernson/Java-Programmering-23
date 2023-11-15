@@ -10,18 +10,19 @@ public class Registry {
         registry.put(872, new Employee("Nima", 22));
         registry.put(101, new Employee("Ushita", 42));
 
-        System.out.println(registry.keySet());
-        System.out.println(registry.values());
+        List<Employee> employeesOver35 = getEmployeesByAge(registry, 35, 125);
 
+        employeesOver35.forEach((e) -> System.out.println(e.name + ": " + e.age));       
+    }
+
+    static List<Employee> getEmployeesByAge(Map<Integer, Employee> registry, int lower, int upper) {
+        List<Employee> returnedEmployees = new ArrayList<>();
         
-        System.out.println("Employees over 35 years of age: ");
         for (int id : registry.keySet()) {
             Employee e = registry.get(id);
-            if (e.age > 35) System.out.println(e.name);
+            if (e.age >= lower && e.age <= upper) returnedEmployees.add(e);
         }
-
-        registry.keySet().forEach(
-            (key) -> System.out.println(registry.get(key).name));
+        return returnedEmployees;
     }
 }
 
